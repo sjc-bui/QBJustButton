@@ -7,27 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1330D52A4153655F019AA4B72AC194DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		38443F6B5743E4675584A441A825FCCF /* QBJustButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7585C17F4E0FE15F7D68AB7DF867FE91 /* QBJustButton-dummy.m */; };
+		25D298386BFEDDD314B7C62B632FADD5 /* QBJustButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C0C63EB35625A8D4A3A9A8104354488 /* QBJustButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2783E14041A081236566E300B395B75D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3FB2959FB53FF605F2F4978D142AE519 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		5990769D485FEC7C87604E8405CCFACD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5BB0D96ABACCA65E6C41EC48A17493CD /* QBJustButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3357291CC954E67396E0A62FFDA2371 /* QBJustButton-dummy.m */; };
+		6F4ACD1B11A4B86362EA4040F016C8B6 /* QBJustButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 21138523AF728871FE84A50D327E5F35 /* QBJustButton.m */; };
 		71C2393F5B562261D11FA9DD3F230BC6 /* Pods-QBJustButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62187DBD23621A06D65A9A3C31DF69E9 /* Pods-QBJustButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86548B63E47085E0C13AD52DE63B22CE /* Pods-QBJustButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFDFF43B0F04D8EA472A1D3A2F2BB3E /* Pods-QBJustButton_Tests-dummy.m */; };
-		93CEEF9ED497E5DFB70D9A0D3889A2D7 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 772545D38A76693DAD6EF54A79BAC5A6 /* ReplaceMe.m */; };
-		A854B1D83292CF4D87D4CDAA31804F18 /* QBJustButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B7E75E047971436FD812517318DF90 /* QBJustButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9051EA1A43DB8B789083C8F77F4EAA66 /* QBJustButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8346DF186DB7B35812F1B6726AA19160 /* QBJustButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CEC8970FEF73D1170C52AE2DF30095CB /* Pods-QBJustButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3EA864078A4C10DC74574CAEE085C1 /* Pods-QBJustButton_Example-dummy.m */; };
 		FD0A8A6661D176636D99E8202F29611C /* Pods-QBJustButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C69704EC1B49CB4048A2BE4BFD57C5 /* Pods-QBJustButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3CA47D10ABCF9164979DAB5E13AECCD6 /* PBXContainerItemProxy */ = {
+		193BBD534C4DCBCC8B817477153B030C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DCB698C63DF49FA9262AE9700950C1A9;
 			remoteInfo = QBJustButton;
 		};
-		A0EA98619A212FA2C128892571D86426 /* PBXContainerItemProxy */ = {
+		D8F76C487DA05634A12DA62D188DA8CA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,47 +38,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E5613EB8F38BF506364FF5E1B1E8437 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		0F9B266B0B4535511D01CDDA55B44095 /* Pods-QBJustButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QBJustButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1C0C63EB35625A8D4A3A9A8104354488 /* QBJustButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBJustButton.h; path = QBJustButton/Classes/QBJustButton.h; sourceTree = "<group>"; };
 		1EFDFF43B0F04D8EA472A1D3A2F2BB3E /* Pods-QBJustButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QBJustButton_Tests-dummy.m"; sourceTree = "<group>"; };
 		1F1CFA5456A2F65820A0E6E56A338816 /* Pods-QBJustButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QBJustButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2DDDE56E1C0E87572C8C7310DDD87A52 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		21138523AF728871FE84A50D327E5F35 /* QBJustButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBJustButton.m; path = QBJustButton/Classes/QBJustButton.m; sourceTree = "<group>"; };
 		36A4C3EC1B3764DC21E190696D5E0305 /* Pods-QBJustButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QBJustButton_Example-frameworks.sh"; sourceTree = "<group>"; };
-		42562600679C978CE4EAA35333798FD8 /* QBJustButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QBJustButton.release.xcconfig; sourceTree = "<group>"; };
+		44EBAB0A793DE31865D761AEC192189D /* QBJustButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QBJustButton.debug.xcconfig; sourceTree = "<group>"; };
 		468625C608FC675D6EB8548BC4D72DC6 /* Pods-QBJustButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QBJustButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		474E36E85E04497691E4100DD1010153 /* Pods_QBJustButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QBJustButton_Tests.framework; path = "Pods-QBJustButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50916EA7C65260C488510F5CA9000930 /* Pods-QBJustButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QBJustButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		541042CF1B4025A27C87B4257380E8BB /* Pods-QBJustButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QBJustButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		58B6039B72C884E806679F370E37C7A2 /* QBJustButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QBJustButton.debug.xcconfig; sourceTree = "<group>"; };
 		5A690BC6E5DCBBEC828C0ECE09585640 /* Pods-QBJustButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QBJustButton_Tests-Info.plist"; sourceTree = "<group>"; };
+		5BB674AE7FF3F64BCB97486E034F1BD4 /* QBJustButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QBJustButton.modulemap; sourceTree = "<group>"; };
 		62187DBD23621A06D65A9A3C31DF69E9 /* Pods-QBJustButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QBJustButton_Tests-umbrella.h"; sourceTree = "<group>"; };
 		67339D24930779E6D15D5EE78B10E88F /* Pods-QBJustButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QBJustButton_Example.modulemap"; sourceTree = "<group>"; };
-		6786AC2E02703945F88D8D305444C9A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		6890DB500996FA7D109B432D46DF8EA0 /* Pods-QBJustButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QBJustButton_Tests.modulemap"; sourceTree = "<group>"; };
+		696F5C354BB545F6C0FCBB3DE4D89435 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		6DF15111A32F9067A3513896D4768175 /* Pods-QBJustButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QBJustButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7585C17F4E0FE15F7D68AB7DF867FE91 /* QBJustButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QBJustButton-dummy.m"; sourceTree = "<group>"; };
-		772545D38A76693DAD6EF54A79BAC5A6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = QBJustButton/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		79B7E75E047971436FD812517318DF90 /* QBJustButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QBJustButton-umbrella.h"; sourceTree = "<group>"; };
+		8346DF186DB7B35812F1B6726AA19160 /* QBJustButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QBJustButton-umbrella.h"; sourceTree = "<group>"; };
 		87C69704EC1B49CB4048A2BE4BFD57C5 /* Pods-QBJustButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QBJustButton_Example-umbrella.h"; sourceTree = "<group>"; };
 		921BF053266E8ADB379BBE087FF0E7D4 /* Pods-QBJustButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QBJustButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		93E1E99AFEF91A446B4BBBDA822264A9 /* Pods_QBJustButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QBJustButton_Example.framework; path = "Pods-QBJustButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9571151EF46AD94A7A62782960D7F33C /* QBJustButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QBJustButton-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B9F6C37F7664AB9E869B6F977867F827 /* QBJustButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QBJustButton-Info.plist"; sourceTree = "<group>"; };
-		BF6C147CDADBED5F78E291F301EB98DC /* QBJustButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QBJustButton.modulemap; sourceTree = "<group>"; };
+		BA412C2F949F94C96B37577D0751BA6A /* QBJustButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QBJustButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D3357291CC954E67396E0A62FFDA2371 /* QBJustButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QBJustButton-dummy.m"; sourceTree = "<group>"; };
 		E17D17B17785C20C4C6D0F348DE5D700 /* QBJustButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QBJustButton.framework; path = QBJustButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7D3FAF99FAFAB29621ED5408F65E8F8 /* QBJustButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QBJustButton-prefix.pch"; sourceTree = "<group>"; };
 		ED668D529996A5932C012128D4AF0C00 /* Pods-QBJustButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QBJustButton_Example-Info.plist"; sourceTree = "<group>"; };
-		EE156DCA5BAE36A69261E67098D6B0A1 /* QBJustButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QBJustButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EF2F2756E8247224830AC6F0966468B0 /* QBJustButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QBJustButton-prefix.pch"; sourceTree = "<group>"; };
 		F01C8E716DC941EA6A99A71FCDD54D60 /* Pods-QBJustButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QBJustButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FB3EA864078A4C10DC74574CAEE085C1 /* Pods-QBJustButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QBJustButton_Example-dummy.m"; sourceTree = "<group>"; };
+		FDE758E7A113570CACB3B5B379FD4D26 /* QBJustButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QBJustButton.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		40BD761322CD3305977685EF01EE3C6A /* Frameworks */ = {
+		04860094FF9834C205A9F53226F7264A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1330D52A4153655F019AA4B72AC194DF /* Foundation.framework in Frameworks */,
+				2783E14041A081236566E300B395B75D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,31 +102,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16A9A1D7A0E6A754868A431DA2BDD36C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2DDDE56E1C0E87572C8C7310DDD87A52 /* LICENSE */,
-				EE156DCA5BAE36A69261E67098D6B0A1 /* QBJustButton.podspec */,
-				6786AC2E02703945F88D8D305444C9A8 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		1784386754EBF5B7A1D0B29D185CBD42 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BF6C147CDADBED5F78E291F301EB98DC /* QBJustButton.modulemap */,
-				7585C17F4E0FE15F7D68AB7DF867FE91 /* QBJustButton-dummy.m */,
-				B9F6C37F7664AB9E869B6F977867F827 /* QBJustButton-Info.plist */,
-				E7D3FAF99FAFAB29621ED5408F65E8F8 /* QBJustButton-prefix.pch */,
-				79B7E75E047971436FD812517318DF90 /* QBJustButton-umbrella.h */,
-				58B6039B72C884E806679F370E37C7A2 /* QBJustButton.debug.xcconfig */,
-				42562600679C978CE4EAA35333798FD8 /* QBJustButton.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/QBJustButton";
-			sourceTree = "<group>";
-		};
 		1D7EE0A83F8462CB561018CB32F61475 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,17 +138,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3004064C17E28AF240320D8514D72C98 /* QBJustButton */ = {
-			isa = PBXGroup;
-			children = (
-				772545D38A76693DAD6EF54A79BAC5A6 /* ReplaceMe.m */,
-				16A9A1D7A0E6A754868A431DA2BDD36C /* Pod */,
-				1784386754EBF5B7A1D0B29D185CBD42 /* Support Files */,
-			);
-			name = QBJustButton;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,12 +146,31 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6EC16996C3E53AA1089F9F3433ED7CFC /* Development Pods */ = {
+		68785C02E8C1961B313DFCF8E9633B12 /* QBJustButton */ = {
 			isa = PBXGroup;
 			children = (
-				3004064C17E28AF240320D8514D72C98 /* QBJustButton */,
+				1C0C63EB35625A8D4A3A9A8104354488 /* QBJustButton.h */,
+				21138523AF728871FE84A50D327E5F35 /* QBJustButton.m */,
+				FDF0561AA24ACD0A8F0156505BE7E659 /* Pod */,
+				6BDD318B4934272247615CA7B882B9A7 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = QBJustButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6BDD318B4934272247615CA7B882B9A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BB674AE7FF3F64BCB97486E034F1BD4 /* QBJustButton.modulemap */,
+				D3357291CC954E67396E0A62FFDA2371 /* QBJustButton-dummy.m */,
+				9571151EF46AD94A7A62782960D7F33C /* QBJustButton-Info.plist */,
+				EF2F2756E8247224830AC6F0966468B0 /* QBJustButton-prefix.pch */,
+				8346DF186DB7B35812F1B6726AA19160 /* QBJustButton-umbrella.h */,
+				44EBAB0A793DE31865D761AEC192189D /* QBJustButton.debug.xcconfig */,
+				FDE758E7A113570CACB3B5B379FD4D26 /* QBJustButton.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QBJustButton";
 			sourceTree = "<group>";
 		};
 		B31513D1B576FBA9900A528457656031 /* Pods-QBJustButton_Tests */ = {
@@ -204,11 +189,19 @@
 			path = "Target Support Files/Pods-QBJustButton_Tests";
 			sourceTree = "<group>";
 		};
+		B72098595AB77D5192AF28A4912E7603 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68785C02E8C1961B313DFCF8E9633B12 /* QBJustButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				6EC16996C3E53AA1089F9F3433ED7CFC /* Development Pods */,
+				B72098595AB77D5192AF28A4912E7603 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				1D7EE0A83F8462CB561018CB32F61475 /* Products */,
 				2779E198C2513547F0D18B316E1B3912 /* Targets Support Files */,
@@ -223,14 +216,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FDF0561AA24ACD0A8F0156505BE7E659 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0E5613EB8F38BF506364FF5E1B1E8437 /* LICENSE */,
+				BA412C2F949F94C96B37577D0751BA6A /* QBJustButton.podspec */,
+				696F5C354BB545F6C0FCBB3DE4D89435 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4357960497AAB43284B619036AE4DED0 /* Headers */ = {
+		3B86C22E1599F693A895827D082C0520 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A854B1D83292CF4D87D4CDAA31804F18 /* QBJustButton-umbrella.h in Headers */,
+				9051EA1A43DB8B789083C8F77F4EAA66 /* QBJustButton-umbrella.h in Headers */,
+				25D298386BFEDDD314B7C62B632FADD5 /* QBJustButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +269,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				640FDF60A1FF74FDCB788780F27E2BC1 /* PBXTargetDependency */,
+				C862E30ED274F46099EF7AC2DF1CBF74 /* PBXTargetDependency */,
 			);
 			name = "Pods-QBJustButton_Example";
 			productName = "Pods-QBJustButton_Example";
@@ -284,7 +288,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				27AE5F048AB55B6509A1B44BE410A87B /* PBXTargetDependency */,
+				577FD46399FE1789FDBE1671B658512E /* PBXTargetDependency */,
 			);
 			name = "Pods-QBJustButton_Tests";
 			productName = "Pods-QBJustButton_Tests";
@@ -293,12 +297,12 @@
 		};
 		DCB698C63DF49FA9262AE9700950C1A9 /* QBJustButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 748C1B3F6FCC4CE8B407BFFAFCAC6A1E /* Build configuration list for PBXNativeTarget "QBJustButton" */;
+			buildConfigurationList = C59A702580B68EDC425C2BAC10602301 /* Build configuration list for PBXNativeTarget "QBJustButton" */;
 			buildPhases = (
-				4357960497AAB43284B619036AE4DED0 /* Headers */,
-				BB02200466477E248FF3524A3CE38469 /* Sources */,
-				40BD761322CD3305977685EF01EE3C6A /* Frameworks */,
-				581EE73AD9659A4CF8153EC278C26F38 /* Resources */,
+				3B86C22E1599F693A895827D082C0520 /* Headers */,
+				168000FF4B32FF4E55DCE50B5735DF17 /* Sources */,
+				04860094FF9834C205A9F53226F7264A /* Frameworks */,
+				FBE1569071EAFEB917BF743B76A9C197 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -346,14 +350,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		581EE73AD9659A4CF8153EC278C26F38 /* Resources */ = {
+		A95E09D0FFF2C26719231A764F806A58 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A95E09D0FFF2C26719231A764F806A58 /* Resources */ = {
+		FBE1569071EAFEB917BF743B76A9C197 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,20 +367,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		168000FF4B32FF4E55DCE50B5735DF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB0D96ABACCA65E6C41EC48A17493CD /* QBJustButton-dummy.m in Sources */,
+				6F4ACD1B11A4B86362EA4040F016C8B6 /* QBJustButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4C0887983755AAAD3C6CBA216EF1BEC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CEC8970FEF73D1170C52AE2DF30095CB /* Pods-QBJustButton_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB02200466477E248FF3524A3CE38469 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				38443F6B5743E4675584A441A825FCCF /* QBJustButton-dummy.m in Sources */,
-				93CEEF9ED497E5DFB70D9A0D3889A2D7 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,17 +395,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		27AE5F048AB55B6509A1B44BE410A87B /* PBXTargetDependency */ = {
+		577FD46399FE1789FDBE1671B658512E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-QBJustButton_Example";
 			target = 8EFFBE52AF910BDC5C74CB19EC58D649 /* Pods-QBJustButton_Example */;
-			targetProxy = A0EA98619A212FA2C128892571D86426 /* PBXContainerItemProxy */;
+			targetProxy = D8F76C487DA05634A12DA62D188DA8CA /* PBXContainerItemProxy */;
 		};
-		640FDF60A1FF74FDCB788780F27E2BC1 /* PBXTargetDependency */ = {
+		C862E30ED274F46099EF7AC2DF1CBF74 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = QBJustButton;
 			target = DCB698C63DF49FA9262AE9700950C1A9 /* QBJustButton */;
-			targetProxy = 3CA47D10ABCF9164979DAB5E13AECCD6 /* PBXContainerItemProxy */;
+			targetProxy = 193BBD534C4DCBCC8B817477153B030C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -472,10 +476,11 @@
 			};
 			name = Debug;
 		};
-		68F9A0F0E7B45C01A7E06CB100E5B92A /* Release */ = {
+		462A65E29BD419CE282D3F357B507D20 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42562600679C978CE4EAA35333798FD8 /* QBJustButton.release.xcconfig */;
+			baseConfigurationReference = 44EBAB0A793DE31865D761AEC192189D /* QBJustButton.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -487,7 +492,38 @@
 				GCC_PREFIX_HEADER = "Target Support Files/QBJustButton/QBJustButton-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/QBJustButton/QBJustButton-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QBJustButton/QBJustButton.modulemap";
+				PRODUCT_MODULE_NAME = QBJustButton;
+				PRODUCT_NAME = QBJustButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6B3DC98B46EED46F870AAE56AF059D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDE758E7A113570CACB3B5B379FD4D26 /* QBJustButton.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QBJustButton/QBJustButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QBJustButton/QBJustButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/QBJustButton/QBJustButton.modulemap";
 				PRODUCT_MODULE_NAME = QBJustButton;
@@ -502,36 +538,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		6FE544A7036692866CE945E8EAC12174 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58B6039B72C884E806679F370E37C7A2 /* QBJustButton.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QBJustButton/QBJustButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QBJustButton/QBJustButton-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QBJustButton/QBJustButton.modulemap";
-				PRODUCT_MODULE_NAME = QBJustButton;
-				PRODUCT_NAME = QBJustButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		79459AD1CCFE3D6A9A4D3749F274D99F /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -746,11 +752,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		748C1B3F6FCC4CE8B407BFFAFCAC6A1E /* Build configuration list for PBXNativeTarget "QBJustButton" */ = {
+		C59A702580B68EDC425C2BAC10602301 /* Build configuration list for PBXNativeTarget "QBJustButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6FE544A7036692866CE945E8EAC12174 /* Debug */,
-				68F9A0F0E7B45C01A7E06CB100E5B92A /* Release */,
+				462A65E29BD419CE282D3F357B507D20 /* Debug */,
+				6B3DC98B46EED46F870AAE56AF059D00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

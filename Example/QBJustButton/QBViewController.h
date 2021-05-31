@@ -7,7 +7,10 @@
 //
 
 @import UIKit;
+#import "QBJustButton.h"
 
 @interface QBViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet QBJustButton *continueBtn;
 
 @end
