@@ -96,10 +96,10 @@
     self.titleLabel.numberOfLines = 0;
     [self.containerView addSubview:self.titleLabel];
 
-    [self addTarget:self action:@selector(touchDownInside) forControlEvents:UIControlEventTouchDown|UIControlEventTouchDownRepeat];
     [self addTarget:self action:@selector(touchUpInside) forControlEvents:UIControlEventTouchUpInside];
-    [self addTarget:self action:@selector(dragOutside) forControlEvents:UIControlEventTouchDragExit|UIControlEventTouchCancel];
+    [self addTarget:self action:@selector(touchDownInside) forControlEvents:UIControlEventTouchDown | UIControlEventTouchDownRepeat];
     [self addTarget:self action:@selector(dragInside) forControlEvents:UIControlEventTouchDragEnter];
+    [self addTarget:self action:@selector(dragOutside) forControlEvents:UIControlEventTouchDragExit | UIControlEventTouchCancel];
 }
 
 - (void)layoutSubviews {
@@ -169,7 +169,7 @@
         animateBlock();
         return;
     }
-    
+
     self.titleLabel.backgroundColor = [UIColor clearColor];
     [UIView animateWithDuration:self.tappedAnimationDuration
                           delay:0.0f
