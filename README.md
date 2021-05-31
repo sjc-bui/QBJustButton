@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/QBJustButton.svg?style=flat)](https://cocoapods.org/pods/QBJustButton)
 [![Platform](https://img.shields.io/cocoapods/p/QBJustButton.svg?style=flat)](https://cocoapods.org/pods/QBJustButton)
 
-![Example]()
+![Example](https://github.com/sjc-bui/QBJustButton/blob/develop/Example/QBJustButton/QBJustButton.gif?raw=true)
 
 ## Example
 

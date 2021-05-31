@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E7C55E42664B1E800D92BCF /* QBJustButton.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E7C55E32664B1E800D92BCF /* QBJustButton.gif */; };
+		2E7C55E62664B3BC00D92BCF /* QBJustButton.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E7C55E52664B3BB00D92BCF /* QBJustButton.gif */; };
 		549094667365BB3E36312182 /* Pods_QBJustButton_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB54AEE65D70A8DC7CDC2810 /* Pods_QBJustButton_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -39,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		1C764062FB0008C306FDC979 /* Pods-QBJustButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QBJustButton_Example.debug.xcconfig"; path = "Target Support Files/Pods-QBJustButton_Example/Pods-QBJustButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2E7C55E32664B1E800D92BCF /* QBJustButton.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = QBJustButton.gif; sourceTree = "<group>"; };
+		2E7C55E52664B3BB00D92BCF /* QBJustButton.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = QBJustButton.gif; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* QBJustButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QBJustButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -100,7 +100,7 @@
 		2E7C55E22664B18400D92BCF /* ScreenShot */ = {
 			isa = PBXGroup;
 			children = (
-				2E7C55E32664B1E800D92BCF /* QBJustButton.gif */,
+				2E7C55E52664B3BB00D92BCF /* QBJustButton.gif */,
 			);
 			name = ScreenShot;
 			sourceTree = "<group>";
@@ -292,7 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				2E7C55E42664B1E800D92BCF /* QBJustButton.gif in Resources */,
+				2E7C55E62664B3BC00D92BCF /* QBJustButton.gif in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
