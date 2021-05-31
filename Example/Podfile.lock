@@ -1,0 +1,16 @@
+PODS:
+  - QBJustButton (0.1.0)
+
+DEPENDENCIES:
+  - QBJustButton (from `../`)
+
+EXTERNAL SOURCES:
+  QBJustButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QBJustButton: c02900d189589d2abbc96ddbc330c95b2a079c24
+
+PODFILE CHECKSUM: 18ff36574ed4ea2a2a0716dd039681d516d64ddc
+
+COCOAPODS: 1.10.1

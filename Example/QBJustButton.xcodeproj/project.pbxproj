@@ -60,13 +60,13 @@
 		67C40AA4B858719CB490C1EF /* Pods_QBJustButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QBJustButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		928DBAE0F7837DDEA31C9001 /* QBJustButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QBJustButton.podspec; path = ../QBJustButton.podspec; sourceTree = "<group>"; };
+		928DBAE0F7837DDEA31C9001 /* QBJustButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QBJustButton.podspec; path = ../QBJustButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A75031BE7D501EDFBC486C36 /* Pods-QBJustButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QBJustButton_Tests.release.xcconfig"; path = "Target Support Files/Pods-QBJustButton_Tests/Pods-QBJustButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AB54AEE65D70A8DC7CDC2810 /* Pods_QBJustButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QBJustButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C084E0D1CD68DA8F1D434B /* Pods-QBJustButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QBJustButton_Example.release.xcconfig"; path = "Target Support Files/Pods-QBJustButton_Example/Pods-QBJustButton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E185E9DFAF1A7E5B64C826C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E185E9DFAF1A7E5B64C826C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E498CF15A42F1E20B867435F /* Pods-QBJustButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QBJustButton_Tests.debug.xcconfig"; path = "Target Support Files/Pods-QBJustButton_Tests/Pods-QBJustButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F86C25C1A418F8DFEFC6F62C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F86C25C1A418F8DFEFC6F62C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				E498CF15A42F1E20B867435F /* Pods-QBJustButton_Tests.debug.xcconfig */,
 				A75031BE7D501EDFBC486C36 /* Pods-QBJustButton_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -449,7 +449,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -482,7 +482,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -497,6 +497,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QBJustButton/QBJustButton-Prefix.pch";
 				INFOPLIST_FILE = "QBJustButton/QBJustButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +514,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QBJustButton/QBJustButton-Prefix.pch";
 				INFOPLIST_FILE = "QBJustButton/QBJustButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

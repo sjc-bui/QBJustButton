@@ -1,0 +1,6 @@
+framework module Pods_QBJustButton_Example {
+  umbrella header "Pods-QBJustButton_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
