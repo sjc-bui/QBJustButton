@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'QBJustButton_Example' do
+  pod 'QBJustButton', :path => '../'
+
+  target 'QBJustButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
