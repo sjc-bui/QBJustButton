@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "QBJustButton.h"
 
 FOUNDATION_EXPORT double QBJustButtonVersionNumber;
 FOUNDATION_EXPORT const unsigned char QBJustButtonVersionString[];

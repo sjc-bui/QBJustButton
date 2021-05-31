@@ -5,11 +5,14 @@
 [![License](https://img.shields.io/cocoapods/l/QBJustButton.svg?style=flat)](https://cocoapods.org/pods/QBJustButton)
 [![Platform](https://img.shields.io/cocoapods/p/QBJustButton.svg?style=flat)](https://cocoapods.org/pods/QBJustButton)
 
+![Example](https://github.com/sjc-bui/QBJustButton/blob/develop/Example/QBJustButton/QBJustButton.gif?raw=true)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+- iOS 10.0 and above
 
 ## Installation
 
